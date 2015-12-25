@@ -15,6 +15,8 @@
 		B794111F1C2A733900EBC35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B794111D1C2A733900EBC35B /* LaunchScreen.storyboard */; };
 		B794112A1C2A733900EBC35B /* SelectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79411291C2A733900EBC35B /* SelectViewDemoTests.m */; };
 		B79411351C2A733900EBC35B /* SelectViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79411341C2A733900EBC35B /* SelectViewDemoUITests.m */; };
+		B79411441C2A7BC100EBC35B /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79411431C2A7BC100EBC35B /* SelectView.m */; };
+		B79411471C2BD16500EBC35B /* KaraokeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B79411461C2BD16500EBC35B /* KaraokeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B79411301C2A733900EBC35B /* SelectViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79411341C2A733900EBC35B /* SelectViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectViewDemoUITests.m; sourceTree = "<group>"; };
 		B79411361C2A733900EBC35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79411421C2A7BC100EBC35B /* SelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectView.h; sourceTree = "<group>"; };
+		B79411431C2A7BC100EBC35B /* SelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectView.m; sourceTree = "<group>"; };
+		B79411451C2BD16500EBC35B /* KaraokeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaraokeLabel.h; sourceTree = "<group>"; };
+		B79411461C2BD16500EBC35B /* KaraokeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaraokeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				B79411131C2A733900EBC35B /* AppDelegate.m */,
 				B79411151C2A733900EBC35B /* ViewController.h */,
 				B79411161C2A733900EBC35B /* ViewController.m */,
+				B79411421C2A7BC100EBC35B /* SelectView.h */,
+				B79411431C2A7BC100EBC35B /* SelectView.m */,
+				B79411451C2BD16500EBC35B /* KaraokeLabel.h */,
+				B79411461C2BD16500EBC35B /* KaraokeLabel.m */,
 				B79411181C2A733900EBC35B /* Main.storyboard */,
 				B794111B1C2A733900EBC35B /* Assets.xcassets */,
 				B794111D1C2A733900EBC35B /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				B79411171C2A733900EBC35B /* ViewController.m in Sources */,
 				B79411141C2A733900EBC35B /* AppDelegate.m in Sources */,
+				B79411471C2BD16500EBC35B /* KaraokeLabel.m in Sources */,
+				B79411441C2A7BC100EBC35B /* SelectView.m in Sources */,
 				B79411111C2A733900EBC35B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +508,7 @@
 				B794113B1C2A733900EBC35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B794113C1C2A733900EBC35B /* Build configuration list for PBXNativeTarget "SelectViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				B794113E1C2A733900EBC35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B794113F1C2A733900EBC35B /* Build configuration list for PBXNativeTarget "SelectViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				B79411411C2A733900EBC35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SelectView.h"
+#import "KaraokeLabel.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    SelectView *select = [[SelectView alloc] initWithFrame:CGRectMake(20, 100, 300, 40) itemArray:@[@"第一",@"第二",@"第三",@"第四",@"第五",@"第六"] touchItem:^(NSUInteger index) {
+        NSLog(@"%ld",index);
+    }];
+//    select.selectItemColor = [UIColor whiteColor];
+//    select.notSelectItemColor = [UIColor blackColor];
+    [self.view addSubview:select];
 }
 
 @end
